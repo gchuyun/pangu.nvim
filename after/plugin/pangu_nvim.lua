@@ -1,6 +1,6 @@
 local pangu = require("pangu")
 
-local ut = require("jb_utils")
+local ut = require("jieba.utils")
 
 -- TokenType Enum
 TokenType = { hans = 1, punc = 2, space = 3, non_word = 4, eng = 5 }
